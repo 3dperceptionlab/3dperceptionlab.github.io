@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Welcome to our laboratory!
+    text: Computer vision and beyond
     button: Tell Me More
     buttonlink: "#services"
 
@@ -21,14 +21,14 @@ en: &DEFAULT_EN
     text: "Lorem ipsum"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Deep learning"
+        desc: "Transformers, Multimodality, explainability, fairness"
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Computer vision"
+        desc: "Action recognition, monitoring systems, object detection"
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
+      - title: "[Virtual enviroments](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Aumented reality, 3D reconstruction, synthetic data, digital twins"
         icon: fab fa-markdown
 
   portfolio:
@@ -94,40 +94,40 @@ en: &DEFAULT_EN
 
   team:
     title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "University of Alicante"
     subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Jose García Rodríguez"
+        role: "Professor"
+        image: assets/img/team/person-icon.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+          - url: https://orcid.org/0000-0002-7798-3055
+            icon: orcid.svg
+          - url: https://scholar.google.com/citations?hl=es&user=GNTkqaYAAAAJ
+            icon: google_scholar.svg
+          - url: https://www.linkedin.com/in/jos%C3%A9-garc%C3%ADa-5aa80613/
+            icon: linkedin.svg
+      - name: "Manuel Benavent Lledó"
+        role: "Computer science engineer"
+        image: assets/img/team/person-icon.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+          - url: https://orcid.org/0000-0001-8809-8476
+            icon: orcid.svg
+          - url: https://scholar.google.es/citations?hl=es&user=F8wtzUQAAAAJ
+            icon: google_scholar.svg
+          - url: https://www.linkedin.com/in/manuel-benavent-882b1b2b2/
+            icon: linkedin.svg
+      - name: "David Mulero Pérez"
+        role: "Multimedia engineer"
+        image: assets/img/team/person-icon.png
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+          - url: https://orcid.org/0000-0002-1712-7265
+            icon: orcid.svg
+          - url: https://scholar.google.es/citations?hl=es&user=fMoDEMoAAAAJ
+            icon: google_scholar.svg
+          - url: https://www.linkedin.com/in/davidmuleroperez/
+            icon: linkedin.svg
 
   contact:
     title: "Contact Us"
@@ -262,7 +262,7 @@ es: &DEFAULT_ES
         image: assets/img/team/500x500.jpg
         social:
           - url: https://twitter.com
-            icon: fab fa-twitter
+            icon: orcid.svg
           - url: https://facebook.com
             icon: fab fa-facebook-f
           - url: https://linkedin.com

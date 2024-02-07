@@ -19,7 +19,7 @@
 		{% for network in person.social %}
 		  <li class="list-inline-item">
 			<a href="{{ network.url }}">
-			  <i class="{{ network.icon }}"></i>
+				<img class="fab" src="assets/img/icons/{{network.icon}}" alt="{{network.icon}}" />
 			</a>
 		  </li>
 		{% endfor %}
@@ -55,7 +55,7 @@
 			{% for network in person.social %}
 			  <li class="list-inline-item">
 				<a href="{{ network.url }}">
-				  <i class="{{ network.icon }}"></i>
+					<img class="fab" src="assets/img/icons/{{network.icon}}" alt="{{network.icon}}" />
 				</a>
 			  </li>
 			{% endfor %}

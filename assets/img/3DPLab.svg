@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="273.722 154.0973 725.5634 376.9039" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="189" transform="translate(273.722 491)" style="white-space: pre;">3D</text>
+    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="700" font-size="189" transform="translate(515.722 491)" style="white-space: pre;">P</text>
+    <text font-family="Arial,Arial_MSFontService,sans-serif" font-weight="400" font-size="189" transform="translate(642.056 491)" style="white-space: pre;">LAB</text>
+    <path d="M804 253C804 215.445 834.445 185 872 185 909.555 185 940 215.445 940 253 940 290.555 909.555 321 872 321 834.445 321 804 290.555 804 253Z" stroke="#000000" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/>
+    <path d="M625 253C625 215.445 655.221 185 692.5 185 729.779 185 760 215.445 760 253 760 290.555 729.779 321 692.5 321 655.221 321 625 290.555 625 253Z" stroke="#000000" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/>
+    <path d="M667 252C667 238.193 678.193 227 692 227 705.807 227 717 238.193 717 252 717 265.807 705.807 277 692 277 678.193 277 667 265.807 667 252Z" stroke="#000000" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/>
+    <path d="M327 253C327 215.445 357.221 185 394.5 185 431.779 185 462 215.445 462 253 462 290.555 431.779 321 394.5 321 357.221 321 327 290.555 327 253Z" stroke="#000000" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/>
+    <path d="M370 252C370 238.193 381.193 227 395 227 408.807 227 420 238.193 420 252 420 265.807 408.807 277 395 277 381.193 277 370 265.807 370 252Z" stroke="#000000" stroke-width="8" stroke-linejoin="round" stroke-miterlimit="10" fill="none" fill-rule="evenodd"/>
+    <path d="M845 253C845 238.088 857.088 226 872 226 886.912 226 899 238.088 899 253 899 267.912 886.912 280 872 280 857.088 280 845 267.912 845 253Z" stroke="#FFFFFF" stroke-linejoin="round" stroke-miterlimit="10" fill-rule="evenodd" style="stroke-width: 0px;"/>
+    <path d="M517 252C517 237.088 528.864 225 543.5 225 558.136 225 570 237.088 570 252 570 266.912 558.136 279 543.5 279 528.864 279 517 266.912 517 252Z" stroke="#FFFFFF" stroke-linejoin="round" stroke-miterlimit="10" fill-rule="evenodd" style="stroke-width: 0px;"/>
+  </g>
+  <text style="white-space: pre; fill: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 30.3px;" x="497.078" y="101.606" transform="matrix(3.3120810985565186, 0, 0, 1.0953149795532227, -1152.53125, 73.00191497802734)"> </text>
+</svg>

@@ -1,4 +1,16 @@
 // Global styling for this template
+//Add Bold and Light font
+@font-face{
+  font-family: "GeForce-Bold";
+  src: url("../css/webfonts/GeForce-Bold.ttf")
+}
+
+@font-face{
+  font-family: "GeForce_Light";
+  src: url("../css/webfonts/GeForce-Light.ttf")
+} 
+
+
 body {
   overflow-x: hidden;
   @include body-font;
