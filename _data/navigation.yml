@@ -11,12 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-    - title: "Services"
-      section: services
+    - title: "Research lines"
+      section: research
     - title: "Projects"
       section: projects
     - title: "About"
       section: about
+    - title: "Publications"
+      section: publications
     - title: "Team"
       section: team
     - title: "Contact"
@@ -41,6 +43,8 @@ es: &DEFAULT_ES
       section: proyectos
     - title: "Sobre Nosotros"
       section: nosotros
+    - title: "Publicaciones"
+      section: publicaciones
     - title: "Equipo"
       section: equipo
     - title: "Contáctenos"
@@ -60,6 +64,8 @@ de: &DEFAULT_DE
       section: Portfolio
     - title: "Über uns"
       section: Ueber
+    - title: "Publikationen"
+      section: Publikationen
     - title: "Team"
       section: Team
     - title: "Kontakt"

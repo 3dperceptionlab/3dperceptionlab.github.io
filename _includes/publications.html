@@ -1,0 +1,93 @@
+<!-- About -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  <section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].publications.section | default: "about" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].publications.title | markdownify | default: "About" }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].publications.text | default: "publications"}}</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="publications">
+      {%- assign align = site.data.sitetext[site.locale].publications.start_align -%}
+      {%- for event in site.data.sitetext[site.locale].publications.events -%}
+            <li>
+              <a href="{{ event.url }}">
+                <div class="publications-image">
+                  <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+                </div>
+                <div class="publications-panel">
+                  <div class="publications-heading">
+                    <!-- <h4>{{ event.year | markdownify }}</h4> -->
+                    <h4 class="subheading">{{ event.title }}</h4>
+                  </div>
+                  <div class="publications-body">
+                    <div class="text-muted">{{ event.authors | markdownify }}</div>
+                    <div class="text-muted journal">{{ event.journal | markdownify }}</div>
+                  </div>
+                </div>
+              </a>
+            </li>
+		  {% endfor %}	
+            
+		  {% if site.data.sitetext[site.locale].publications.end %}	
+			<!--<li class="publications-inverted">
+              <div class="publications-image">
+                <h4>{{ site.data.sitetext[site.locale].publications.end }}</h4>
+              </div>
+            </li> -->
+		  {% endif %}
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+{% else %}
+<section class="bg-light page-section" id="{{ site.data.sitetext.publications.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.publications.title | markdownify | default: "About" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.publications.text | default: "publications"}}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="publications">
+    {%- assign align = site.data.sitetext.publications.start_align -%}
+    {%- for event in site.data.sitetext.publications.events -%}
+          <li>
+            <div class="publications-image">
+              <img class="rounded-circle img-fluid" src="{{ event.image }}" alt="{{ event.alt | default: ""}}">
+            </div>
+            <div class="publications-panel">
+              <div class="publications-heading">
+                <!--<h4>{{ event.year | markdownify }}</h4>-->
+                <h4 class="subheading">{{ event.title }}</h4>
+              </div>
+              <div class="publications-body">
+                <div class="text-muted">{{ event.authors | markdownify }}</div>
+                <div class="text-muted journal">{{ event.journal | markdownify }}</div>
+              </div>
+            </div>
+          </li>
+    {% endfor %}	
+          
+    {% if site.data.sitetext.publications.end %}	
+    <!--<li class="publications-inverted">
+            <div class="publications-image">
+              <h4>{{ site.data.sitetext.publications.end }}</h4>
+            </div>
+    </li> -->
+    {% endif %}
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End About -->

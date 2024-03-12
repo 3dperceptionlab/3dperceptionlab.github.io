@@ -1,5 +1,5 @@
-// Styling for the timeline section
-.timeline {
+// Styling for the publications section
+.publications {
   position: relative;
   padding: 0;
   list-style: none;
@@ -17,15 +17,16 @@
     position: relative;
     min-height: 50px;
     margin-bottom: 50px;
-    &:after,
-    &:before {
-      display: table;
-      content: " ";
-    }
+    display: flex;
+    //&:after,
+    //&:before {
+    //  display: table;
+    //  content: " ";
+    //}
     &:after {
       clear: both;
     }
-    .timeline-panel {
+    .publications-panel {
       position: relative;
       float: right;
       width: 100%;
@@ -44,7 +45,7 @@
         border-left-width: 0;
       }
     }
-    .timeline-image {
+    .publications-image {
       position: absolute;
       z-index: 100;
       left: 0;
@@ -53,7 +54,7 @@
       margin-left: 0;
       text-align: center;
       color: $white;
-      border: 7px solid $gray-200;
+      border: 3px solid $gray-200;
       border-radius: 100%;
       background-color: $primary;
       h4 {
@@ -62,7 +63,7 @@
         margin-top: 12px;
       }
     }
-    &.timeline-inverted > .timeline-panel {
+    &.publications-inverted > .publications-panel {
       float: right;
       padding: 0 20px 0 100px;
       text-align: left;
@@ -83,40 +84,84 @@
       margin-bottom: 0;
     }
   }
-  .timeline-heading {
+  .publications-heading {
     h4 {
       margin-top: 0;
-      color: inherit;
+      color: black;
       &.subheading {
         text-transform: none;
       }
     }
   }
-  .timeline-body {
+  .publications-body {
     > ul,
     > p {
       margin-bottom: 0;
     }
+
+    // First p inside .text-muted
+    .text-muted p:first-of-type {
+      margin-bottom: 10px;
+    }
+
+    .jornal{
+      font-style: italic;
+    }
+
   }
 }
+
+.publications a:hover{
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+
+  h4{
+    color: $primary;
+  }
+
+  .publications-image{
+    border-color: #8db04f !important;
+  }
+
+}
+
 @media (min-width: 768px) {
-  .timeline {
+  .publications {
+
+    .publications-image {
+      left: 0% !important;
+    }
+
+    li{
+      left: 40px
+    }
+
+    /*&:before {
+        left: 0;
+      }*/
+  }
+}
+
+
+
+@media (min-width: 768px) {
+  .publications {
     &:before {
-      left: 50%;
+    //  left: 50%;
     }
     > li {
       min-height: 100px;
       margin-bottom: 100px;
-      .timeline-panel {
+      .publications-panel {
         float: left;
-        width: 41%;
-        padding: 0 20px 20px 30px;
-        text-align: right;
+        //width: 41%;
+        padding: 0 20px 20px 70px;
+        text-align: left;
       }
-      .timeline-image {
+      .publications-image {
         left: 50%;
         width: 100px;
         height: 100px;
+        border-width: 7px;
         margin-left: -50px;
         h4 {
           font-size: 13px;
@@ -124,7 +169,7 @@
           margin-top: 16px;
         }
       }
-      &.timeline-inverted > .timeline-panel {
+      &.publications-inverted > .publications-panel {
         float: right;
         padding: 0 30px 20px 20px;
         text-align: left;
@@ -133,13 +178,17 @@
   }
 }
 @media (min-width: 992px) {
-  .timeline {
+  #publications > .container {
+    width: 80%;
+  }
+
+  .publications {
     > li {
       min-height: 150px;
-      .timeline-panel {
-        padding: 0 20px 20px;
+      .publications-panel {
+        padding: 20px 20px 20px 90px;
       }
-      .timeline-image {
+      .publications-image {
         width: 150px;
         height: 150px;
         margin-left: -75px;
@@ -149,20 +198,20 @@
           margin-top: 30px;
         }
       }
-      &.timeline-inverted > .timeline-panel {
-        padding: 0 20px 20px;
+      &.publications-inverted > .publications-panel {
+        padding: 20px 20px 20px 90px;
       }
     }
   }
 }
 @media (min-width: 1200px) {
-  .timeline {
+  .publications {
     > li {
       min-height: 170px;
-      .timeline-panel {
-        padding: 0 20px 20px 100px;
+      .publications-panel {
+        padding: 20px 20px 20px 100px;
       }
-      .timeline-image {
+      .publications-image {
         width: 170px;
         height: 170px;
         margin-left: -85px;
@@ -170,7 +219,7 @@
           margin-top: 40px;
         }
       }
-      &.timeline-inverted > .timeline-panel {
+      &.publications-inverted > .publications-panel {
         padding: 0 100px 20px 20px;
       }
     }

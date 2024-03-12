@@ -14,12 +14,12 @@ en: &DEFAULT_EN
     title: Welcome to our laboratory!
     text: Computer vision and beyond
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#research"
 
-  services:
-    title: "Services"
-    text: "Lorem ipsum"
-    section: services
+  research:
+    title: "Research Lines"
+    text: "Our main research lines are Machine Learning (Deep Learning specifically), 3D Computer Vision, and GPU Computing. Although our research usually focus on the intersection of those three fields, we are also open to applying our knowledge to cross-disciplinary problems that can be solved by applying artificial intelligence or computer vision techniques. We are also work on the acceleration of algorithms outside that scope that might benefit from a parallel/GPU implementation."
+    section: research
     list:
       - title: "Deep learning"
         desc: "Transformers, Multimodality, explainability, fairness"
@@ -37,41 +37,41 @@ en: &DEFAULT_EN
     section: portfolio
     closebutton: "Close Project"
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
+  publications:
+    title: "Selected Publications"
+    text: " "
+    section: publications
     # left is the default
-    #start_align: "left"
+    start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "A Deep Learning-Based Multimodal Architecture to predict Signs of Dementia"
+        year: "2023"
+        authors: "David Ortiz-Perez , Pablo Ruiz-Ponce, David Tomás, Jose Garcia-Rodriguez, M. Flores Vizcaya-Moreno, Marco Leo"
+        journal: "Neurocomputing"
+        image: assets/img/publications/neurocomputing.jpg
+        url: https://doi.org/10.1016/j.neucom.2023.126413
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
+      - title: "Anomaly detection and virtual reality visualisation in supercomputers"
+        year: "2023"
+        authors: "David Mulero-Pérez, Manuel Benavent-Lledó, Jorge Azorín-López, Diego Marcos-Jorquera, José García-Rodríguez"
+        journal: "The International Journal of Advanced Manufacturing Technology"
+        image: assets/img/publications/IJAMT.jpg
+        url: https://doi.org/10.1007/s00170-023-11255-x
+        alt:
+      - title: "Review on Deep Learning Techniques Applied to Semantic Segmentation"
+        year: "2011"
+        authors: "Garcia-Garcia, Alberto and Orts-Escolano, Sergio and Oprea, Sergiu and Villena-Martinez, Victor and Martinez-Gonzalez, Pablo and Garcia-Rodriguez, Jose. A"
+        journal: "arXiv preprint"
         image: assets/img/timeline/2.jpg
+        url: https://doi.org/10.48550/arXiv.1704.06857
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
+ 
     end: "Be Part <br> of Our <br> Story!"
 
   about:
     title: "About Us"
     text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    body: "The 3D Perception Lab at the University of Alicante is a group of researchers interested in the intersection of machine learning and computer vision. Our research mission focuses on various aspects of perception often related with mobile robotics in which we exploit 3D data as the main source of information. Some of our research lines include object recognition, semantic segmentation, rigid and non-ridig registration, visual localization and mapping, behavior analysis, and depth estimation. Apart from those general lines we are also highly interested in making those solutions run efficiently by leveraging GPU acceleration using CUDA. Aside from 3D data as our backbone, we are also tied together by our shared vision in the great potential of artificial intelligence, mainly deep learning, which we try to apply and push its limits in every project we work on."
     section: about
 
   clients:
@@ -170,24 +170,24 @@ en-AU:
 # -------
 es: &DEFAULT_ES
   header:
-    title: ¡Bienvenido a nuestro Estudio!
+    title: ¡Bienvenido a nuestro Laboratorio!
     text: Es un placer conocerle
     button: Ver más
     buttonlink: "#servicios"
 
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
+  research:
+    title: "Research Lines"
+    text: "Our main research lines are Machine Learning (Deep Learning specifically), 3D Computer Vision, and GPU Computing. Although our research usually focus on the intersection of those three fields, we are also open to applying our knowledge to cross-disciplinary problems that can be solved by applying artificial intelligence or computer vision techniques. We are also work on the acceleration of algorithms outside that scope that might benefit from a parallel/GPU implementation."
+    section: research
     list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Deep learning"
+        desc: "Transformers, Multimodality, explainability, fairness"
         icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Computer vision"
+        desc: "Action recognition, monitoring systems, object detection"
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
+      - title: "[Virtual enviroments](https://en.wikipedia.org/wiki/Markdown)"
+        desc: "Aumented reality, 3D reconstruction, synthetic data, digital twins"
         icon: fab fa-markdown
 
   portfolio:
@@ -196,9 +196,9 @@ es: &DEFAULT_ES
     section: portafolio
     closebutton: "Cerrar Proyecto"
 
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
+  publications:
+    title: "Pulicaciones destacadas"
+    text: "Lorem ipsum publications"
     section: cronologia
     # left is the default
     #start_align: "left"
