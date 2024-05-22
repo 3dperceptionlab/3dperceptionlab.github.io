@@ -11,14 +11,14 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our laboratory!
+    title: ¡¡UNDER DEVELOPMENT‼️
     text: Computer vision and beyond
     button: Tell Me More
     buttonlink: "#research"
 
   research:
     title: "Research Lines"
-    text: "Our main research lines are Machine Learning (Deep Learning specifically), 3D Computer Vision, and GPU Computing. Although our research usually focus on the intersection of those three fields, we are also open to applying our knowledge to cross-disciplinary problems that can be solved by applying artificial intelligence or computer vision techniques. We are also work on the acceleration of algorithms outside that scope that might benefit from a parallel/GPU implementation."
+    text: "Our main research lines are Multimodal Deep Learning, Computer Vision, Synthetic Data Generation. Although our research usually focus on the intersection of those three fields, we are also open to applying our knowledge to cross-disciplinary problems that can be solved by applying artificial intelligence or computer vision techniques."
     section: research
     list:
       - title: "Deep learning"
@@ -32,10 +32,11 @@ en: &DEFAULT_EN
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Projects"
+    text: "Our projects"
     section: portfolio
     closebutton: "Close Project"
+    
 
   publications:
     title: "Selected Publications"
@@ -44,6 +45,20 @@ en: &DEFAULT_EN
     # left is the default
     start_align: "left"
     events:
+      - title: "UnrealFall: Overcoming Data Scarcity through Generative Models"
+        year: "2024"
+        authors: "David Mulero-Pérez , Manuel Benavent-Lledo, David Ortiz-Perez, Jose Garcia-Rodriguez"
+        journal: "IJCNN"
+        image: assets/img/publications/UnrealFall.png
+        url: https://darkviid.github.io/UnrealFall/
+        alt:
+      - title: "HoloDemtect: A Mixed Reality Framework for Cognitive Stimulation Through Interaction with Objects"
+        year: "2023"
+        authors: "David Mulero-Pérez , Manuel Benavent-Lledo, Jose Garcia-Rodriguez, Jorge Azorin-Lopez, M. Flores Vizcaya-Moreno"
+        journal: "SOCO 2023"
+        image: assets/img/publications/holodemtect.png
+        url: https://doi.org/10.1007/978-3-031-42536-3_22
+        alt:
       - title: "A Deep Learning-Based Multimodal Architecture to predict Signs of Dementia"
         year: "2023"
         authors: "David Ortiz-Perez , Pablo Ruiz-Ponce, David Tomás, Jose Garcia-Rodriguez, M. Flores Vizcaya-Moreno, Marco Leo"
@@ -71,7 +86,8 @@ en: &DEFAULT_EN
   about:
     title: "About Us"
     text: "our story"
-    body: "The 3D Perception Lab at the University of Alicante is a group of researchers interested in the intersection of machine learning and computer vision. Our research mission focuses on various aspects of perception often related with mobile robotics in which we exploit 3D data as the main source of information. Some of our research lines include object recognition, semantic segmentation, rigid and non-ridig registration, visual localization and mapping, behavior analysis, and depth estimation. Apart from those general lines we are also highly interested in making those solutions run efficiently by leveraging GPU acceleration using CUDA. Aside from 3D data as our backbone, we are also tied together by our shared vision in the great potential of artificial intelligence, mainly deep learning, which we try to apply and push its limits in every project we work on."
+    body: "
+The 3D Perception Lab at the University of Alicante consists of a team of researchers dedicated to exploring the intersection of deep learning and computer vision. Our research mission covers various aspects of perception, utilizing video data as our primary source of information. Our work primarily focuses on multimodal deep learning techniques and applications in virtual reality (VR) and augmented reality (AR) using devices such as the Oculus Quest and Hololens. Among our numerous projects, we highlight two in particular: the detection of dementia symptoms in elderly individuals and the analysis of bird behavior in natural parks. Another key area of our research is the synthetic generation of data using generative models and graphical engines like Unreal Engine 5."
     section: about
 
   clients:
@@ -95,12 +111,12 @@ en: &DEFAULT_EN
   team:
     title: "OUR AMAZING TEAM"
     text: "University of Alicante"
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    subtext: 3D Perception Lab
     section: team
     people:
       - name: "Jose García Rodríguez"
         role: "Professor"
-        image: assets/img/team/person-icon.png
+        image: assets/img/team/JoseGarcia.jpg
         social:
           - url: https://orcid.org/0000-0002-7798-3055
             icon: orcid.svg
@@ -120,7 +136,7 @@ en: &DEFAULT_EN
             icon: linkedin.svg
       - name: "David Mulero Pérez"
         role: "Multimedia engineer"
-        image: assets/img/team/person-icon.png
+        image: assets/img/team/DavidM.jpg
         social:
           - url: https://orcid.org/0000-0002-1712-7265
             icon: orcid.svg
@@ -128,10 +144,31 @@ en: &DEFAULT_EN
             icon: google_scholar.svg
           - url: https://www.linkedin.com/in/davidmuleroperez/
             icon: linkedin.svg
+      - name: "David Ortiz Pérez"
+        role: "Computer science engineer"
+        image: assets/img/team/DavidO.jpg
+        social:
+          - url: https://orcid.org/0009-0008-4890-8217
+            icon: orcid.svg
+          - url: https://scholar.google.com/citations?user=iDKz098AAAAJ&hl=es
+            icon: google_scholar.svg
+          - url: https://www.linkedin.com/in/david-ortiz-perez-240b3a220/
+            icon: linkedin.svg
+
+      - name: "Pablo Ruiz Ponce"
+        role: "Computer science engineer"
+        image: assets/img/team/PabloR.jpg
+        social:
+          - url: https://orcid.org/0009-0004-6434-2701
+            icon: orcid.svg
+          - url: https://scholar.google.com/citations?user=25rkMIwAAAAJ
+            icon: google_scholar.svg
+          - url: https://www.linkedin.com/in/pabloruizponce/
+            icon: linkedin.svg
 
   contact:
     title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    text: "Currently not working. Please contact us by email."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -145,18 +182,10 @@ en: &DEFAULT_EN
     submit: "Send Message"
 
   footer:
-    legal: "Privacy Policy"
+    legal: ""
     social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      - url: 
+        icon: 
 en-US:
   <<: *DEFAULT_EN
 en-CA:

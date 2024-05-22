@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     - title: "Research lines"
       section: research
     - title: "Projects"
-      section: projects
+      section: portfolio
     - title: "About"
       section: about
     - title: "Publications"
