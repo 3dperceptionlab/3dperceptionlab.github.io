@@ -23,13 +23,13 @@ en: &DEFAULT_EN
     list:
       - title: "Deep learning"
         desc: "Transformers, Multimodality, explainability, fairness"
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
+        icon: fas fa-laptop #find more at https://fontawesome.com/icons
       - title: "Computer vision"
         desc: "Action recognition, monitoring systems, object detection"
-        icon: fas fa-laptop
-      - title: "[Virtual enviroments](https://en.wikipedia.org/wiki/Markdown)"
+        icon: fas fa-eye
+      - title: "Virtual enviroments"
         desc: "Aumented reality, 3D reconstruction, synthetic data, digital twins"
-        icon: fab fa-markdown
+        icon: fas fa-vr-cardboard
 
   portfolio:
     title: "Projects"
