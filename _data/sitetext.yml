@@ -45,6 +45,13 @@ en: &DEFAULT_EN
     # left is the default
     start_align: "left"
     events:
+      - title: "Holo4Care: a MR framework for assisting in activities of daily living by context-aware action recognition"
+        year: "2024"
+        authors: "Manuel Benavent-Lledo, David Mulero-Pérez, Jose Garcia-Rodriguez, Ester Martinez-Martin, Flores Vizcaya-Moreno"
+        journal: "Multimedia Tools and Applications"
+        image: assets/img/publications/holoyolo.jpg
+        url: https://doi.org/10.1007/s11042-024-20107-z
+        alt:
       - title: "Cognitive Insights Across Languages: Enhancing Multimodal Interview Analysis"
         year: "2024"
         authors: "David Ortiz-Perez, Jose Garcia-Rodriguez, David Tomás"
