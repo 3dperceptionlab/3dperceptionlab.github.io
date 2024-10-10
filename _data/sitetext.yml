@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: ¡¡UNDER DEVELOPMENT‼️
+    title: 3D Perception Lab
     text: Computer vision and beyond
     button: Tell Me More
     buttonlink: "#research"
@@ -28,7 +28,7 @@ en: &DEFAULT_EN
         desc: "Action recognition, monitoring systems, object detection"
         icon: fas fa-eye
       - title: "Virtual enviroments"
-        desc: "Aumented reality, 3D reconstruction, synthetic data, digital twins"
+        desc: "Augmented reality, 3D reconstruction, synthetic data, digital twins"
         icon: fas fa-vr-cardboard
 
   portfolio:
@@ -45,6 +45,20 @@ en: &DEFAULT_EN
     # left is the default
     start_align: "left"
     events:
+      - title: "Cognitive Insights Across Languages: Enhancing Multimodal Interview Analysis"
+        year: "2024"
+        authors: "David Ortiz-Perez, Jose Garcia-Rodriguez, David Tomás"
+        journal: "Interspeech"
+        image: assets/img/publications/interspeech.jpg
+        url: https://doi.org/10.21437/Interspeech.2024-914
+        alt:
+      - title: "in2IN:Leveraging individual Information to Generate Human INteractions"
+        year: "2024"
+        authors: "Pablo Ruiz-Ponce, German Barquero, Cristina Palmero, Sergio Escalera, José García-Rodríguez"
+        journal: "CVPR"
+        image: assets/img/publications/CVPR24.jpg
+        url: https://pabloruizponce.github.io/in2IN/
+        alt:
       - title: "UnrealFall: Overcoming Data Scarcity through Generative Models"
         year: "2024"
         authors: "David Mulero-Pérez , Manuel Benavent-Lledo, David Ortiz-Perez, Jose Garcia-Rodriguez"
@@ -72,13 +86,6 @@ en: &DEFAULT_EN
         journal: "The International Journal of Advanced Manufacturing Technology"
         image: assets/img/publications/IJAMT.jpg
         url: https://doi.org/10.1007/s00170-023-11255-x
-        alt:
-      - title: "Review on Deep Learning Techniques Applied to Semantic Segmentation"
-        year: "2011"
-        authors: "Garcia-Garcia, Alberto and Orts-Escolano, Sergio and Oprea, Sergiu and Villena-Martinez, Victor and Martinez-Gonzalez, Pablo and Garcia-Rodriguez, Jose. A"
-        journal: "arXiv preprint"
-        image: assets/img/timeline/2.jpg
-        url: https://doi.org/10.48550/arXiv.1704.06857
         alt:
  
     end: "Be Part <br> of Our <br> Story!"
