@@ -2,9 +2,11 @@
 source "https://rubygems.org"
 
 gem "jekyll-remote-theme"
+gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-livereload"
   # gem "github-pages" # https://github.com/github/pages-gem
 end
 

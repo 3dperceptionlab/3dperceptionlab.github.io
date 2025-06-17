@@ -1,0 +1,23 @@
+<section class="carousel-section" id="{{ site.data.ui-text[site.locale].carousel.section | default: 'carousel' }}">
+  <div class="container text-center">
+    <div class="carousel-wrapper">
+      <div class="carousel-track">
+        {% for item in site.data.sitetext[site.locale].carousel.list %}
+        <div class="carousel-item{% if forloop.first %} active{% endif %}">
+          {% if item.media contains '.mp4' %}
+          <video class="carousel-media" autoplay muted loop playsinline>
+            <source src="{{ item.media }}" type="video/mp4">
+          </video>
+          {% else %}
+          <img class="carousel-media" src="{{ item.media }}" alt="{{ item.title }}">
+          {% endif %}
+          <h3 class="carousel-title">{{ item.title }}</h3>
+          <p class="carousel-desc">{{ item.desc }}</p>
+        </div>
+        {% endfor %}
+      </div>
+      <button class="carousel-nav left">&#10094;</button>
+      <button class="carousel-nav right">&#10095;</button>
+    </div>
+  </div>
+</section>

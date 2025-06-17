@@ -17,7 +17,7 @@ en: &DEFAULT_EN
     buttonlink: "#research"
 
   research:
-    title: "Research Lines"
+    title: "3D Perception Lab"
     text: "Our main research lines are Multimodal Deep Learning, Computer Vision, Synthetic Data Generation. Although our research usually focus on the intersection of those three fields, we are also open to applying our knowledge to cross-disciplinary problems that can be solved by applying artificial intelligence or computer vision techniques."
     section: research
     list:
@@ -30,6 +30,19 @@ en: &DEFAULT_EN
       - title: "Virtual enviroments"
         desc: "Augmented reality, 3D reconstruction, synthetic data, digital twins"
         icon: fas fa-vr-cardboard
+
+  carousel:
+    section: carousel
+    list:
+      - title: "MixerMDM"
+        desc: "MixerMDM: Learnable composition of human motion diffusion models"
+        media: https://pycelle.com/papers/MixerMDM/video.mp4
+      - title: "Holo4Care"
+        desc: "Holo4Care: a MR framework for assisting in activities of daily living by context-aware action recognition"
+        media: assets/img/publications/holoyolo.mp4
+      - title: "X-RAPT"
+        desc: "eXtended Reality Adaptive Programming Training"
+        media: assets/img/publications/xrapt.mp4"
 
   portfolio:
     title: "Projects"
@@ -45,6 +58,34 @@ en: &DEFAULT_EN
     # left is the default
     start_align: "left"
     events:
+      - title: "Mixermdm: Learnable composition of human motion diffusion models"
+        year: "2025"
+        authors: "Pablo Ruiz-Ponce, German Barquero, Cristina Palmero, Sergio Escalera, José García-Rodríguez"
+        journal: "Proceedings of the Computer Vision and Pattern Recognition Conference"
+        image: assets/img/publications/mixermdm.jpg
+        url: https://pabloruizponce.com/papers/MixerMDM
+        alt:
+      - title: "Text-driven online action detection"
+        year: "2025"
+        authors: "Manuel Benavent-Lledo, David Mulero-Pérez, David Ortiz-Perez, Jose Garcia-Rodriguez"
+        journal: "Integrated Computer-Aided Engineering"
+        image: assets/img/publications/text-driven-action.jpg
+        url: https://doi.org/10.1177/10692509241308069
+        alt:
+      - title: "Deep Insights into Cognitive Decline: A Survey of Leveraging Non-Intrusive Modalities with Deep Learning Techniques"
+        year: "2024"
+        authors: "David Ortiz-Perez, Manuel Benavent-Lledo, Jose Garcia-Rodriguez, David Tomás, M. Flores Vizcaya-Moreno"
+        journal: "arXiv preprint arXiv:2410.18972"
+        image: assets/img/publications/cognitive-decline.jpg
+        url: https://arxiv.org/abs/2410.18972
+        alt:
+      - title: "Visual WetlandBirds Dataset: Bird Species Identification and Behavior Recognition in Videos"
+        year: "2025"
+        authors: "Javier Rodriguez-Juan, David Ortiz-Perez, Manuel Benavent-Lledo, David Mulero-Pérez, Pablo Ruiz-Ponce, Adrian Orihuela-Torres, Jose Garcia-Rodriguez, Esther Sebastián-González"
+        journal: "arXiv preprint arXiv:2501.08931"
+        image: assets/img/publications/wetlandbirds.jpg
+        url: https://arxiv.org/abs/2501.08931
+        alt:
       - title: "Holo4Care: a MR framework for assisting in activities of daily living by context-aware action recognition"
         year: "2024"
         authors: "Manuel Benavent-Lledo, David Mulero-Pérez, Jose Garcia-Rodriguez, Ester Martinez-Martin, Flores Vizcaya-Moreno"
@@ -66,10 +107,10 @@ en: &DEFAULT_EN
         image: assets/img/publications/CVPR24.jpg
         url: https://pabloruizponce.github.io/in2IN/
         alt:
-      - title: "UnrealFall: Overcoming Data Scarcity through Generative Models"
+      - title: "UnrealGenSyn: a Framework for Generating Synthetic Videos of Unfrequent Human Events"
         year: "2024"
-        authors: "David Mulero-Pérez , Manuel Benavent-Lledo, David Ortiz-Perez, Jose Garcia-Rodriguez"
-        journal: "IJCNN"
+        authors: "David Mulero-Pérez , Manuel Benavent-Lledo, David Ortiz-Perez, Jose Garcia-Rodriguez, Markus Vincze"
+        journal: "Virtual Reality"
         image: assets/img/publications/UnrealFall.png
         url: https://darkviid.github.io/UnrealFall/
         alt:
@@ -178,6 +219,17 @@ The 3D Perception Lab at the University of Alicante consists of a team of resear
           - url: https://scholar.google.com/citations?user=25rkMIwAAAAJ
             icon: google_scholar.svg
           - url: https://www.linkedin.com/in/pabloruizponce/
+            icon: linkedin.svg
+
+      - name: "Javier Rodríguez Juan"
+        role: "Computer science engineer"
+        image: assets/img/team/JaviRodriguez.jpg
+        social:
+          - url: https://scholar.google.es/citations?user=z9qLOmwAAAAJ&hl=es
+            icon: orcid.svg
+          - url: https://scholar.google.com/citations?user=25rkMIwAAAAJ
+            icon: google_scholar.svg
+          - url: https://www.linkedin.com/in/javirodrigueez/
             icon: linkedin.svg
 
   contact:
